@@ -67,3 +67,15 @@
     display: inline;
     padding: 0 5;
 }
+
+.button-row li a {
+    text-decoration: none;
+    color: #afb9bf;
+}
+
+.button-row li a:hover {
+    font-size: 95px;
+    padding: 0, 1;
+    color: #f1f1f1;
+}
+
