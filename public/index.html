@@ -6,7 +6,9 @@
 		<meta name='author' content='Dan Cadden, shikkic@gmail.com' />
     	<meta name='keywords' content='shikkic, computer science, temple, dan cadden, programming
     teaching, software engineering, devops, infrastructure, fullstack, web, go, javascript, php, skillshare, hackny, github'/>
-        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 		<!-- Incoperate Google Analytics for viewing data -->
 	</head>
 	<header>
@@ -16,12 +18,56 @@
 		<div id="background-image"></div>
 		<div id="bg-overlay"></div>
 		<section class="main">
-			<h1>Dan Cadden</h1>
-			<p> I write software </p>
-			<span> Temple University | hackNY '14 | Skillshare </span>
+			<h1 class="header">Dan Cadden</h1>
+            <p class="sub-header"><i class="fa fa-terminal"></i><span id="sub-header-text"> </span></p>
+
+			<span class="tag-line">Temple University | hackNY '14 | Skillshare</span>
+			<ul class="button-row">
+				<li>
+					<span>
+						<i class="fa fa-github"></i>
+					</span>
+				</li>
+				<li>
+					<span>
+                        <i class="fa fa-linkedin-square"></i>
+					</span>
+				</li>
+				<li>
+					<span>
+						<i class="fa fa-file-text-o"></i>
+					</span>
+				</li>
+				<li>
+					<span>
+                        <i class="fa fa-envelope-o"></i>
+					</span>
+				</li>
+			</ul>
 		</section>
     </body>
 	<footer>
 
 	</footer> 
+    <script>
+        $(document).ready(function() {
+            debugger;
+            function type(string,element){
+                 (function writer(i){
+                      if(string.length <= i++){
+                        element.text = string;
+                        return;
+                      }
+                      element.text(string.substring(0,i));
+                      if( element.text[element.text.length-1] != " " )element.focus();
+                      var rand = Math.floor(Math.random() * (100)) + 80;
+                      setTimeout(function(){writer(i);},rand);
+                 })(0)
+            }
+            var phrase = " I write software";
+
+            var el = $('#sub-header-text'); 
+            type(phrase, el)
+        });
+    </script>
 </html>
