@@ -20,11 +20,11 @@
 
 .main {
     position: absolute;
-    font-family: Tahoma, Geneva, sans-serif; 
+    font-family: Tahoma, Geneva, sans-serif;
     z-index: 3;
 	color: #f1f1f1;
     top: 25%;
-	left: 50%;	
+	left: 50%;
     margin-left: -292px;
     text-align: center;
 }
@@ -39,14 +39,15 @@
     font-size: 38px;
     margin: 0 0 20;
     letter-spacing: 3px;
-    text-shadow: 2px 2px #464141; 
+    text-shadow: 2px 2px #464141;
     color: #cdd1d3;
+    font-family: 'jpn'
 }
 
 .tag-line {
     font-size: 22px;
     letter-spacing: 3.5px;
-    text-shadow: 2px 2px #464141; 
+    text-shadow: 2px 2px #464141;
     color: #e7e9ec;
 }
 
@@ -74,7 +75,7 @@
 }
 
 @media (max-width: 650px) {
-	
+
 	.main {
 		margin-left: -215px;
 	}
@@ -86,7 +87,7 @@
 	.sub-header {
 		font-size: 25px;
 	}
-	
+
 	.tag-line {
 		font-size: 15px;
 	}
@@ -104,7 +105,7 @@
 }
 
 @media (max-width: 480px) {
-	
+
 	.main {
 		margin-left: -172px;
 	}
@@ -117,7 +118,7 @@
 		font-size: 13px;
 		margin-bottom: 15px;
 	}
-	
+
 	.tag-line {
 		font-size: 10px;
 	}
@@ -134,3 +135,7 @@
 	}
 }
 
+@font-face {
+  font-family: 'jpn';
+  src: url('../assets/Zpix.ttf')  format('truetype')
+}
