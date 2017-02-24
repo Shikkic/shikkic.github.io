@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/shikkic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://shikkic.io
+  * I am shikkic (https://keybase.io/shikkic) on keybase.
+  * I have a public key with fingerprint 3C25 E7D4 E519 A6A0 0B56  2DB4 AD5E A823 A948 F174
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c80b9156fdc783cb14e38365d89d9dbc78651c81e08a6900cfdfac35398acf250a",
+            "fingerprint": "3c25e7d4e519a6a00b562db4ad5ea823a948f174",
+            "host": "keybase.io",
+            "key_id": "ad5ea823a948f174",
+            "kid": "0101efd738999871816021df66ca86e40ba3a8994e5f866324e1c584b19955e4d7ed0a",
+            "uid": "bf148d0caf35010c9d17400f6e846319",
+            "username": "shikkic"
+        },
+        "service": {
+            "hostname": "shikkic.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1487916864,
+    "expire_in": 157680000,
+    "prev": "b96c01fff171018580d26eb74832cdb6b2f89e5ac4d200902e98e6edc5012e01",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMNsAnicbVJtUFRVGF7ENaBAUrFAneriNsEwdb/vuRuJJThBMypJKR+23nvuuXDD
+3YXdyyKghGOTyIdC8gMLhoItKKIYEMIUhJCiIWAwGCOskWH48INRhmQiE7qX8kcz
+nT9nznOe93mf5533sq+nwcej4a264M9enVM9+rrOZBj2fzW4PQcT7VIWZs7BUtHK
+hQ5JyKlaUhUJM2M4QeIQ4CJPMKwsQQ5QUCRoRAGKZSTAS7wkaiDLEBAQCAcCy+M4
+lCVZgBRD8UCAMsngAhaGyYotGTnSHIpN1WQpSDKIk2jEELzACjguMiwpibQgMUgA
+JCXwNJAJjtYKU+xOvUIzJwpO9Lxi1zDtYVmx9z/8h75xAskSRwGe5wFHAILFSUKS
+WRYKgEU0LgqUoP1pDmTAshRJIwIygBYJnmcYREscklZ8Z6zIiTJBAwmHgkwxmjTk
+Ja0ZjsssAjRLEbxOdCKHTbAije1MUVJTFYgdDcM00KVApM9VD/Jfwj9h0hx21Q7t
+hzQ8RVXTzHqZmpWm8zKRaPlXwSIqNkmboVbgQg6nYrdhZkJjQlXRJTV7HE+wgKXD
+MHQ4TXEgi6IzGI4FuHb0NsilJ+FZiBOyrE1LGxFgAC6RLBI5GlAklERWJGXAI0aA
+tETiOI+TiAeIRRLUcpMIJzA9U7rNjpl5zaaQrKdRkm2CmuFA2NFvu5JWGzx8DGuM
+q/TdMvh4+z/cuIF+f0Oh6Z3Dz84sPJl7HR4sGchPqk/vfG0xfPx4jOnOuYyghs7n
+ivwfF6qqAgdON385sy3u0/KSp8iJWeHCuayE1Wd37z4R5eleju4a9xuJnO6/9NPA
+WnHy5Adw8nU58VT1VE74lpPeuT15QZ9UTvUJSdWznpuN6UNewRe3Xa+YcCd2171x
+bO8941L9Mpab+czZqbXuMqItq6vgSki3Ghs19qdDzRzb3DfjrjSXlS7XrPv6Cpuw
+Nw9+seEP7khvQfOj/j3XtoR8M+ptWmi0Ka7MguNXv/PuzG48NbRY3TT00oOuoO8v
+1pRfa3dXVI6ULE3tGF8o7Y3cbpgPXc4POZBdvR8c21N0tWVfWGvpTGRR6eDb8+vb
+nf27Eozu1nUZbzp6Qn/2min62FFbUDz94a5A4+2ICE9jXPd8QsflfVXOcCaI68UL
+51bFn6l48HvMkeK2Tferp+uXPg90mYS60BebgGVpOqDWetu61Sv+ZZPfjYVh+Ev0
+zrbZ8wMJPh3v2YanmxNf+S10fa1fcuyacv+2iuaexbsdbYMtWQF33i8YvhVbPJo9
+uTP59F8XJp6+SRIbWiKijfmmjWOb1LmbW0czW20/PHLAZ2ygRt04UcJFFY7UFFov
+NU0tNw/n/doePv9RkvXgnpiqhtq++/EnAhpeCIzy5VKtT3RHu279CILP+9KJje+m
+3y2LfuzGvbjYvwF/dctf
+=KoZu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shikkic
+
+==================================================================
