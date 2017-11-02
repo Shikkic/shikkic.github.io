@@ -1,0 +1,8 @@
+{
+  "name": "shikkic.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shikkic/shikkic.github.io.git",
+  "author": "Dan Cadden <Shikkic@gmail.com>",
+  "license": "MIT"
+}
